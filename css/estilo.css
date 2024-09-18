@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdd1ed;
+    color: white;
+  }
+
+  header {
+    background-color: #e503fe;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+
+  p {
+    margin: 1rem 0;
+    padding: 20px ;
+    left: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 0 1rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 136, 207);
+    box-shadow: 0 2px 5px rgba(0, 0, 0);
+  }
+  .foto-perfil{
+    display: block;
+    margin:0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }

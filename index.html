@@ -5,16 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu currículo </title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
+
   <div class="containder-fluif">
     <header>
-    <!--aqui vai o menu de navegação--> 
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nycolle Alves</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre Mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
   </div>
   <div class="container">
     <main>
+      <div class="foto-perfil">
+      <img src="img/OIP.jpg" alt="programacao">
+      </div>
       <section>
         <div class="row">
           <div>
@@ -23,10 +49,12 @@
         </div>
         <div class="row">
           <div class="col-6">
-          <!--aqui aparece minha descrição-->  
+            <div class="info">
+              <p>Me chamo Nycolle, tenho 15 anos, estou cursando T.I., na escola tecnica Etec Professora Maria Cristina Medeiros, tenho um curso básico de programação fornecido pelo Alura, um curso básico de inglês fornecido pela escola INEXT em Ribeirão Pires-Sp</p>  
           </div>
+            </div>
           <div class="col">
-            <!---Aqui aparece minha imagem-->
+            <img src="img/OIP.jpgs" alt="">
           </div>
         </div>
       </section>
@@ -37,7 +65,19 @@
             </div>
           </div>
           <div class="row">
-            <!--Aqui vai as quatro colunas que vão conter um card em cada uma delas-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/Projeto Google.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Projetosite.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
             
           </div>
         </section>
