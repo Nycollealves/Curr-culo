@@ -148,28 +148,4 @@ body {
       transform: scaleY(1);
     }
   }
-  .card {
-    background-color: #f7f7f7;
-  }
-  
-  .position-card{
-    position: relative;
-    left: 10px;
-  }
-  .position-card2{
-    position: relative;
-    left: 410px;
-    bottom:  160px; 
-    
-  }
-  .position-card3{
-    position: relative;
-    bottom:120px;
-    left: 10px;
-  }
-  .position-card4{
-    position: relative;
-    left: 410px;
-    bottom:  305px; 
-  }
-
+ 
